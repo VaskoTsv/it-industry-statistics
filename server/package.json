@@ -1,0 +1,25 @@
+{
+  "name": "it-industry-analyzer",
+  "version": "1.0.0",
+  "description": "Reliable tool for getting up to date information about the it industry in Bulgaria",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "Vasil Tsvetanov <vask_o@abv.bg>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.5",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
